@@ -19,7 +19,7 @@ YTUB_COOKIES = """
 
 API_ID = os.getenv("API_ID", "29185510")
 API_HASH = os.getenv("API_HASH", "6aac2207089ba648f7a32b26b089239c")
-BOT_TOKEN = os.getenv("BOT_TOKEN", "")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8030184397:AAE_pfDEr3w7_tMsVJZMdutgJqe9mAq27uY")
 MONGO_DB = os.getenv("MONGO_DB", "")
 OWNER_ID = list(map(int, os.getenv("OWNER_ID", "2102848220").split())) # list seperated via space
 DB_NAME = os.getenv("DB_NAME", "telegram_downloader")
@@ -31,7 +31,7 @@ IV_KEY = os.getenv("IV_KEY", "s7Yx5CpVmE3F") # for decryption
 YT_COOKIES = os.getenv("YT_COOKIES", YTUB_COOKIES)
 INSTA_COOKIES = os.getenv("INSTA_COOKIES", INST_COOKIES)
 FREEMIUM_LIMIT = int(os.getenv("FREEMIUM_LIMIT", "0"))
-PREMIUM_LIMIT = int(os.getenv("PREMIUM_LIMIT", "500"))
+PREMIUM_LIMIT = int(os.getenv("PREMIUM_LIMIT", "5000"))
 JOIN_LINK = os.getenv("JOIN_LINK", "https://t.me/team_spy_pro") # this link for start command message
 ADMIN_CONTACT = os.getenv("ADMIN_CONTACT", "https://t.me/username_of_admin")
 
